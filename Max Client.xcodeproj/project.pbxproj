@@ -7,133 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5804A14858F34E71874CFE30 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 400EFE9840FE4D5AB3180B2C /* libPods.a */; };
-		CE733B4819C7552F000DAE44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE733B4719C7552F000DAE44 /* main.m */; };
-		CE733B4B19C7552F000DAE44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE733B4A19C7552F000DAE44 /* AppDelegate.m */; };
-		CE733B4E19C7552F000DAE44 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE733B4D19C7552F000DAE44 /* MasterViewController.m */; };
-		CE733B5119C7552F000DAE44 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE733B5019C7552F000DAE44 /* DetailViewController.m */; };
-		CE733B5419C7552F000DAE44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE733B5219C7552F000DAE44 /* Main.storyboard */; };
-		CE733B5619C7552F000DAE44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE733B5519C7552F000DAE44 /* Images.xcassets */; };
-		CE733B5919C7552F000DAE44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE733B5719C7552F000DAE44 /* LaunchScreen.xib */; };
-		CE733B6519C7552F000DAE44 /* Max_ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE733B6419C7552F000DAE44 /* Max_ClientTests.m */; };
+		28C3E67A22B54A43BF2F1EEE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D51F94B7F6A54CF981F883D5 /* libPods.a */; };
+		78C0F98A19C774FB00A1D856 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0F98919C774FB00A1D856 /* Foundation.framework */; };
+		78C0F98C19C774FB00A1D856 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0F98B19C774FB00A1D856 /* CoreGraphics.framework */; };
+		78C0F98E19C774FB00A1D856 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0F98D19C774FB00A1D856 /* UIKit.framework */; };
+		78C0F99419C774FB00A1D856 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C0F99219C774FB00A1D856 /* InfoPlist.strings */; };
+		78C0F99619C774FB00A1D856 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C0F99519C774FB00A1D856 /* main.m */; };
+		78C0F99A19C774FB00A1D856 /* JWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C0F99919C774FB00A1D856 /* JWAppDelegate.m */; };
+		78C0F99D19C774FB00A1D856 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C0F99B19C774FB00A1D856 /* Main_iPhone.storyboard */; };
+		78C0F9A019C774FB00A1D856 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C0F99E19C774FB00A1D856 /* Main_iPad.storyboard */; };
+		78C0F9A319C774FB00A1D856 /* JWMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C0F9A219C774FB00A1D856 /* JWMasterViewController.m */; };
+		78C0F9A619C774FB00A1D856 /* JWDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C0F9A519C774FB00A1D856 /* JWDetailViewController.m */; };
+		78C0F9A819C774FB00A1D856 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C0F9A719C774FB00A1D856 /* Images.xcassets */; };
+		78C0F9AF19C774FB00A1D856 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0F9AE19C774FB00A1D856 /* XCTest.framework */; };
+		78C0F9B019C774FB00A1D856 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0F98919C774FB00A1D856 /* Foundation.framework */; };
+		78C0F9B119C774FB00A1D856 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C0F98D19C774FB00A1D856 /* UIKit.framework */; };
+		78C0F9B919C774FB00A1D856 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78C0F9B719C774FB00A1D856 /* InfoPlist.strings */; };
+		78C0F9BB19C774FB00A1D856 /* Max_ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C0F9BA19C774FB00A1D856 /* Max_ClientTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE733B5F19C7552F000DAE44 /* PBXContainerItemProxy */ = {
+		78C0F9B219C774FB00A1D856 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE733B3A19C7552F000DAE44 /* Project object */;
+			containerPortal = 78C0F97E19C774FB00A1D856 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CE733B4119C7552F000DAE44;
+			remoteGlobalIDString = 78C0F98519C774FB00A1D856;
 			remoteInfo = "Max Client";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		400EFE9840FE4D5AB3180B2C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		65BC660D5D764DA8B36603C9 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		CE733B4219C7552F000DAE44 /* Max Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Max Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE733B4619C7552F000DAE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE733B4719C7552F000DAE44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE733B4919C7552F000DAE44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CE733B4A19C7552F000DAE44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE733B4C19C7552F000DAE44 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		CE733B4D19C7552F000DAE44 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		CE733B4F19C7552F000DAE44 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		CE733B5019C7552F000DAE44 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		CE733B5319C7552F000DAE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE733B5519C7552F000DAE44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CE733B5819C7552F000DAE44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		CE733B5E19C7552F000DAE44 /* Max ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Max ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE733B6319C7552F000DAE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE733B6419C7552F000DAE44 /* Max_ClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Max_ClientTests.m; sourceTree = "<group>"; };
+		3A983FD34B914CAF811DF3C4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		78C0F98619C774FB00A1D856 /* Max Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Max Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C0F98919C774FB00A1D856 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78C0F98B19C774FB00A1D856 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78C0F98D19C774FB00A1D856 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78C0F99119C774FB00A1D856 /* Max Client-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Max Client-Info.plist"; sourceTree = "<group>"; };
+		78C0F99319C774FB00A1D856 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78C0F99519C774FB00A1D856 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78C0F99719C774FB00A1D856 /* Max Client-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Max Client-Prefix.pch"; sourceTree = "<group>"; };
+		78C0F99819C774FB00A1D856 /* JWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWAppDelegate.h; sourceTree = "<group>"; };
+		78C0F99919C774FB00A1D856 /* JWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWAppDelegate.m; sourceTree = "<group>"; };
+		78C0F99C19C774FB00A1D856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		78C0F99F19C774FB00A1D856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		78C0F9A119C774FB00A1D856 /* JWMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWMasterViewController.h; sourceTree = "<group>"; };
+		78C0F9A219C774FB00A1D856 /* JWMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWMasterViewController.m; sourceTree = "<group>"; };
+		78C0F9A419C774FB00A1D856 /* JWDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWDetailViewController.h; sourceTree = "<group>"; };
+		78C0F9A519C774FB00A1D856 /* JWDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWDetailViewController.m; sourceTree = "<group>"; };
+		78C0F9A719C774FB00A1D856 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78C0F9AD19C774FB00A1D856 /* Max ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Max ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78C0F9AE19C774FB00A1D856 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		78C0F9B619C774FB00A1D856 /* Max ClientTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Max ClientTests-Info.plist"; sourceTree = "<group>"; };
+		78C0F9B819C774FB00A1D856 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78C0F9BA19C774FB00A1D856 /* Max_ClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Max_ClientTests.m; sourceTree = "<group>"; };
+		D51F94B7F6A54CF981F883D5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CE733B3F19C7552F000DAE44 /* Frameworks */ = {
+		78C0F98319C774FB00A1D856 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5804A14858F34E71874CFE30 /* libPods.a in Frameworks */,
+				78C0F98C19C774FB00A1D856 /* CoreGraphics.framework in Frameworks */,
+				78C0F98E19C774FB00A1D856 /* UIKit.framework in Frameworks */,
+				78C0F98A19C774FB00A1D856 /* Foundation.framework in Frameworks */,
+				28C3E67A22B54A43BF2F1EEE /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE733B5B19C7552F000DAE44 /* Frameworks */ = {
+		78C0F9AA19C774FB00A1D856 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C0F9AF19C774FB00A1D856 /* XCTest.framework in Frameworks */,
+				78C0F9B119C774FB00A1D856 /* UIKit.framework in Frameworks */,
+				78C0F9B019C774FB00A1D856 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		864B14C59B5742C5AECA140A /* Frameworks */ = {
+		78C0F97D19C774FB00A1D856 = {
 			isa = PBXGroup;
 			children = (
-				400EFE9840FE4D5AB3180B2C /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CE733B3919C7552F000DAE44 = {
-			isa = PBXGroup;
-			children = (
-				CE733B4419C7552F000DAE44 /* Max Client */,
-				CE733B6119C7552F000DAE44 /* Max ClientTests */,
-				CE733B4319C7552F000DAE44 /* Products */,
-				65BC660D5D764DA8B36603C9 /* Pods.xcconfig */,
-				864B14C59B5742C5AECA140A /* Frameworks */,
+				78C0F98F19C774FB00A1D856 /* Max Client */,
+				78C0F9B419C774FB00A1D856 /* Max ClientTests */,
+				78C0F98819C774FB00A1D856 /* Frameworks */,
+				78C0F98719C774FB00A1D856 /* Products */,
+				3A983FD34B914CAF811DF3C4 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
-		CE733B4319C7552F000DAE44 /* Products */ = {
+		78C0F98719C774FB00A1D856 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE733B4219C7552F000DAE44 /* Max Client.app */,
-				CE733B5E19C7552F000DAE44 /* Max ClientTests.xctest */,
+				78C0F98619C774FB00A1D856 /* Max Client.app */,
+				78C0F9AD19C774FB00A1D856 /* Max ClientTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE733B4419C7552F000DAE44 /* Max Client */ = {
+		78C0F98819C774FB00A1D856 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE733B4919C7552F000DAE44 /* AppDelegate.h */,
-				CE733B4A19C7552F000DAE44 /* AppDelegate.m */,
-				CE733B4C19C7552F000DAE44 /* MasterViewController.h */,
-				CE733B4D19C7552F000DAE44 /* MasterViewController.m */,
-				CE733B4F19C7552F000DAE44 /* DetailViewController.h */,
-				CE733B5019C7552F000DAE44 /* DetailViewController.m */,
-				CE733B5219C7552F000DAE44 /* Main.storyboard */,
-				CE733B5519C7552F000DAE44 /* Images.xcassets */,
-				CE733B5719C7552F000DAE44 /* LaunchScreen.xib */,
-				CE733B4519C7552F000DAE44 /* Supporting Files */,
+				78C0F98919C774FB00A1D856 /* Foundation.framework */,
+				78C0F98B19C774FB00A1D856 /* CoreGraphics.framework */,
+				78C0F98D19C774FB00A1D856 /* UIKit.framework */,
+				78C0F9AE19C774FB00A1D856 /* XCTest.framework */,
+				D51F94B7F6A54CF981F883D5 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78C0F98F19C774FB00A1D856 /* Max Client */ = {
+			isa = PBXGroup;
+			children = (
+				78C0F99819C774FB00A1D856 /* JWAppDelegate.h */,
+				78C0F99919C774FB00A1D856 /* JWAppDelegate.m */,
+				78C0F99B19C774FB00A1D856 /* Main_iPhone.storyboard */,
+				78C0F99E19C774FB00A1D856 /* Main_iPad.storyboard */,
+				78C0F9A119C774FB00A1D856 /* JWMasterViewController.h */,
+				78C0F9A219C774FB00A1D856 /* JWMasterViewController.m */,
+				78C0F9A419C774FB00A1D856 /* JWDetailViewController.h */,
+				78C0F9A519C774FB00A1D856 /* JWDetailViewController.m */,
+				78C0F9A719C774FB00A1D856 /* Images.xcassets */,
+				78C0F99019C774FB00A1D856 /* Supporting Files */,
 			);
 			path = "Max Client";
 			sourceTree = "<group>";
 		};
-		CE733B4519C7552F000DAE44 /* Supporting Files */ = {
+		78C0F99019C774FB00A1D856 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE733B4619C7552F000DAE44 /* Info.plist */,
-				CE733B4719C7552F000DAE44 /* main.m */,
+				78C0F99119C774FB00A1D856 /* Max Client-Info.plist */,
+				78C0F99219C774FB00A1D856 /* InfoPlist.strings */,
+				78C0F99519C774FB00A1D856 /* main.m */,
+				78C0F99719C774FB00A1D856 /* Max Client-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CE733B6119C7552F000DAE44 /* Max ClientTests */ = {
+		78C0F9B419C774FB00A1D856 /* Max ClientTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE733B6419C7552F000DAE44 /* Max_ClientTests.m */,
-				CE733B6219C7552F000DAE44 /* Supporting Files */,
+				78C0F9BA19C774FB00A1D856 /* Max_ClientTests.m */,
+				78C0F9B519C774FB00A1D856 /* Supporting Files */,
 			);
 			path = "Max ClientTests";
 			sourceTree = "<group>";
 		};
-		CE733B6219C7552F000DAE44 /* Supporting Files */ = {
+		78C0F9B519C774FB00A1D856 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE733B6319C7552F000DAE44 /* Info.plist */,
+				78C0F9B619C774FB00A1D856 /* Max ClientTests-Info.plist */,
+				78C0F9B719C774FB00A1D856 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,15 +169,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE733B4119C7552F000DAE44 /* Max Client */ = {
+		78C0F98519C774FB00A1D856 /* Max Client */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE733B6819C7552F000DAE44 /* Build configuration list for PBXNativeTarget "Max Client" */;
+			buildConfigurationList = 78C0F9BE19C774FB00A1D856 /* Build configuration list for PBXNativeTarget "Max Client" */;
 			buildPhases = (
-				231B1D89F4304388BFC080B7 /* Check Pods Manifest.lock */,
-				CE733B3E19C7552F000DAE44 /* Sources */,
-				CE733B3F19C7552F000DAE44 /* Frameworks */,
-				CE733B4019C7552F000DAE44 /* Resources */,
-				F51B8F5A8DDC46F29FA16F0E /* Copy Pods Resources */,
+				CD19BBE74C71403FA5A86A71 /* Check Pods Manifest.lock */,
+				78C0F98219C774FB00A1D856 /* Sources */,
+				78C0F98319C774FB00A1D856 /* Frameworks */,
+				78C0F98419C774FB00A1D856 /* Resources */,
+				1960254B8DE24A4C93CDFDF2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,46 +185,43 @@
 			);
 			name = "Max Client";
 			productName = "Max Client";
-			productReference = CE733B4219C7552F000DAE44 /* Max Client.app */;
+			productReference = 78C0F98619C774FB00A1D856 /* Max Client.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE733B5D19C7552F000DAE44 /* Max ClientTests */ = {
+		78C0F9AC19C774FB00A1D856 /* Max ClientTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE733B6B19C7552F000DAE44 /* Build configuration list for PBXNativeTarget "Max ClientTests" */;
+			buildConfigurationList = 78C0F9C119C774FB00A1D856 /* Build configuration list for PBXNativeTarget "Max ClientTests" */;
 			buildPhases = (
-				CE733B5A19C7552F000DAE44 /* Sources */,
-				CE733B5B19C7552F000DAE44 /* Frameworks */,
-				CE733B5C19C7552F000DAE44 /* Resources */,
+				78C0F9A919C774FB00A1D856 /* Sources */,
+				78C0F9AA19C774FB00A1D856 /* Frameworks */,
+				78C0F9AB19C774FB00A1D856 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE733B6019C7552F000DAE44 /* PBXTargetDependency */,
+				78C0F9B319C774FB00A1D856 /* PBXTargetDependency */,
 			);
 			name = "Max ClientTests";
 			productName = "Max ClientTests";
-			productReference = CE733B5E19C7552F000DAE44 /* Max ClientTests.xctest */;
+			productReference = 78C0F9AD19C774FB00A1D856 /* Max ClientTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CE733B3A19C7552F000DAE44 /* Project object */ = {
+		78C0F97E19C774FB00A1D856 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = "Jonas Witt";
+				CLASSPREFIX = JW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "metaquark GmbH";
 				TargetAttributes = {
-					CE733B4119C7552F000DAE44 = {
-						CreatedOnToolsVersion = 6.0;
-					};
-					CE733B5D19C7552F000DAE44 = {
-						CreatedOnToolsVersion = 6.0;
-						TestTargetID = CE733B4119C7552F000DAE44;
+					78C0F9AC19C774FB00A1D856 = {
+						TestTargetID = 78C0F98519C774FB00A1D856;
 					};
 				};
 			};
-			buildConfigurationList = CE733B3D19C7552F000DAE44 /* Build configuration list for PBXProject "Max Client" */;
+			buildConfigurationList = 78C0F98119C774FB00A1D856 /* Build configuration list for PBXProject "Max Client" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -204,54 +229,41 @@
 				en,
 				Base,
 			);
-			mainGroup = CE733B3919C7552F000DAE44;
-			productRefGroup = CE733B4319C7552F000DAE44 /* Products */;
+			mainGroup = 78C0F97D19C774FB00A1D856;
+			productRefGroup = 78C0F98719C774FB00A1D856 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE733B4119C7552F000DAE44 /* Max Client */,
-				CE733B5D19C7552F000DAE44 /* Max ClientTests */,
+				78C0F98519C774FB00A1D856 /* Max Client */,
+				78C0F9AC19C774FB00A1D856 /* Max ClientTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CE733B4019C7552F000DAE44 /* Resources */ = {
+		78C0F98419C774FB00A1D856 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE733B5419C7552F000DAE44 /* Main.storyboard in Resources */,
-				CE733B5919C7552F000DAE44 /* LaunchScreen.xib in Resources */,
-				CE733B5619C7552F000DAE44 /* Images.xcassets in Resources */,
+				78C0F9A019C774FB00A1D856 /* Main_iPad.storyboard in Resources */,
+				78C0F9A819C774FB00A1D856 /* Images.xcassets in Resources */,
+				78C0F99D19C774FB00A1D856 /* Main_iPhone.storyboard in Resources */,
+				78C0F99419C774FB00A1D856 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE733B5C19C7552F000DAE44 /* Resources */ = {
+		78C0F9AB19C774FB00A1D856 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78C0F9B919C774FB00A1D856 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		231B1D89F4304388BFC080B7 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F51B8F5A8DDC46F29FA16F0E /* Copy Pods Resources */ = {
+		1960254B8DE24A4C93CDFDF2 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,59 +278,90 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CD19BBE74C71403FA5A86A71 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CE733B3E19C7552F000DAE44 /* Sources */ = {
+		78C0F98219C774FB00A1D856 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE733B4B19C7552F000DAE44 /* AppDelegate.m in Sources */,
-				CE733B4E19C7552F000DAE44 /* MasterViewController.m in Sources */,
-				CE733B4819C7552F000DAE44 /* main.m in Sources */,
-				CE733B5119C7552F000DAE44 /* DetailViewController.m in Sources */,
+				78C0F9A319C774FB00A1D856 /* JWMasterViewController.m in Sources */,
+				78C0F99619C774FB00A1D856 /* main.m in Sources */,
+				78C0F9A619C774FB00A1D856 /* JWDetailViewController.m in Sources */,
+				78C0F99A19C774FB00A1D856 /* JWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE733B5A19C7552F000DAE44 /* Sources */ = {
+		78C0F9A919C774FB00A1D856 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE733B6519C7552F000DAE44 /* Max_ClientTests.m in Sources */,
+				78C0F9BB19C774FB00A1D856 /* Max_ClientTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CE733B6019C7552F000DAE44 /* PBXTargetDependency */ = {
+		78C0F9B319C774FB00A1D856 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE733B4119C7552F000DAE44 /* Max Client */;
-			targetProxy = CE733B5F19C7552F000DAE44 /* PBXContainerItemProxy */;
+			target = 78C0F98519C774FB00A1D856 /* Max Client */;
+			targetProxy = 78C0F9B219C774FB00A1D856 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CE733B5219C7552F000DAE44 /* Main.storyboard */ = {
+		78C0F99219C774FB00A1D856 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE733B5319C7552F000DAE44 /* Base */,
+				78C0F99319C774FB00A1D856 /* en */,
 			);
-			name = Main.storyboard;
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		CE733B5719C7552F000DAE44 /* LaunchScreen.xib */ = {
+		78C0F99B19C774FB00A1D856 /* Main_iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CE733B5819C7552F000DAE44 /* Base */,
+				78C0F99C19C774FB00A1D856 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		78C0F99E19C774FB00A1D856 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C0F99F19C774FB00A1D856 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		78C0F9B719C774FB00A1D856 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78C0F9B819C774FB00A1D856 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CE733B6619C7552F000DAE44 /* Debug */ = {
+		78C0F9BC19C774FB00A1D856 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,11 +376,9 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -352,15 +393,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CE733B6719C7552F000DAE44 /* Release */ = {
+		78C0F9BD19C774FB00A1D856 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -375,12 +415,10 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -388,101 +426,112 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		CE733B6919C7552F000DAE44 /* Debug */ = {
+		78C0F9BF19C774FB00A1D856 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65BC660D5D764DA8B36603C9 /* Pods.xcconfig */;
+			baseConfigurationReference = 3A983FD34B914CAF811DF3C4 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Max Client/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Max Client/Max Client-Prefix.pch";
+				INFOPLIST_FILE = "Max Client/Max Client-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		CE733B6A19C7552F000DAE44 /* Release */ = {
+		78C0F9C019C774FB00A1D856 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65BC660D5D764DA8B36603C9 /* Pods.xcconfig */;
+			baseConfigurationReference = 3A983FD34B914CAF811DF3C4 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Max Client/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Max Client/Max Client-Prefix.pch";
+				INFOPLIST_FILE = "Max Client/Max Client-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		CE733B6C19C7552F000DAE44 /* Debug */ = {
+		78C0F9C219C774FB00A1D856 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Max Client.app/Max Client";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Max Client/Max Client-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Max ClientTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				INFOPLIST_FILE = "Max ClientTests/Max ClientTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Max Client.app/Max Client";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		CE733B6D19C7552F000DAE44 /* Release */ = {
+		78C0F9C319C774FB00A1D856 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Max Client.app/Max Client";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				INFOPLIST_FILE = "Max ClientTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Max Client/Max Client-Prefix.pch";
+				INFOPLIST_FILE = "Max ClientTests/Max ClientTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Max Client.app/Max Client";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE733B3D19C7552F000DAE44 /* Build configuration list for PBXProject "Max Client" */ = {
+		78C0F98119C774FB00A1D856 /* Build configuration list for PBXProject "Max Client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE733B6619C7552F000DAE44 /* Debug */,
-				CE733B6719C7552F000DAE44 /* Release */,
+				78C0F9BC19C774FB00A1D856 /* Debug */,
+				78C0F9BD19C774FB00A1D856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE733B6819C7552F000DAE44 /* Build configuration list for PBXNativeTarget "Max Client" */ = {
+		78C0F9BE19C774FB00A1D856 /* Build configuration list for PBXNativeTarget "Max Client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE733B6919C7552F000DAE44 /* Debug */,
-				CE733B6A19C7552F000DAE44 /* Release */,
+				78C0F9BF19C774FB00A1D856 /* Debug */,
+				78C0F9C019C774FB00A1D856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE733B6B19C7552F000DAE44 /* Build configuration list for PBXNativeTarget "Max ClientTests" */ = {
+		78C0F9C119C774FB00A1D856 /* Build configuration list for PBXNativeTarget "Max ClientTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE733B6C19C7552F000DAE44 /* Debug */,
-				CE733B6D19C7552F000DAE44 /* Release */,
+				78C0F9C219C774FB00A1D856 /* Debug */,
+				78C0F9C319C774FB00A1D856 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CE733B3A19C7552F000DAE44 /* Project object */;
+	rootObject = 78C0F97E19C774FB00A1D856 /* Project object */;
 }
